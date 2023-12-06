@@ -1,8 +1,8 @@
-## College Department Website
+College Department Website
 
 Welcome to the official website of Ramanujan College! This repository contains the HTML, CSS, and JavaScript code for our college's online platform.
 
-### Features:
+Features:
 
 - **Navigation:** Easy access to Home, Courses, and Departments.
 - **Login & Registration:** Secure login and registration options.
@@ -10,7 +10,7 @@ Welcome to the official website of Ramanujan College! This repository contains t
 - **Information Cards:** Highlighting key features and announcements.
 - **Responsive Design:** Ensures optimal viewing on various devices.
 
-### How to Use:
+How to Use:
 
 1. Clone this repository.
 2. Open `index.html` in your web browser.
