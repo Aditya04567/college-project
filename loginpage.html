@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <nav id="navbar" class="">
+        <div class="nav-wrapper">
+          <!-- Navbar Logo -->
+          <div class="logo">
+            <!-- Logo Placeholder for Illustration -->
+            <a href="#home"
+              ><img
+                width="56px"
+                height="auto"
+                src="Ramanujan logo.png"
+            /></a>
+          </div>
+          <span id="logo-text">Ramanujan College</span>
+          <!-- Navbar Links -->
+          <ul id="menu">
+            <li><a href="/Pract1.html">Home</a></li>
+            <li><a href="https://ramanujancollege.ac.in/courses/">Courses</a></li>
+            <li><a href="https://ramanujancollege.ac.in/departments/">Department</a></li>
+            <a href="/loginpage.html"><button class="btn">Login</button></a>
+            <a href="registration.html"><button class="btn-2" >Register</button></a>
+            
+          </ul>
+        </div>
+      </nav>
+  
+      <!-- Menu Icon -->
+      <div class="menuIcon">
+        <span class="icon icon-bars"></span>
+        <span class="icon icon-bars overlay"></span>
+      </div>
+  
+      <div class="overlay-menu">
+        <ul id="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#department">Department</a></li>
+          <button class="btn">Login</button>
+         </ul>
+      </div>
+    <div class="login-page">
+        <div class="form">
+            <h2>Ramanujan College<h2>
+                <br>
+          <form class="register-form">
+            <input type="text" placeholder="name"/>
+            <input type="password" placeholder="password"/>
+            <input type="text" placeholder="email address"/>
+            <button>create</button>
+            <p class="message">Already registered? <a href="#">Sign In</a></p>
+          </form>
+          <form class="login-form">
+            <input type="text" placeholder="username"/>
+            <input type="password" placeholder="password"/>
+            <button>login</button>
+            <p class="message">Not registered? <a href="/registration.html">Create an account</a></p>
+          </form>
+        </div>
+      </div>
+</body>
+</html>
